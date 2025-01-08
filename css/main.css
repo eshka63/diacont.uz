@@ -4,8 +4,6 @@
     Author: bugfixx
     Support: mailto:masumkhandakar4@gmail.com
     Description: Diango - Health Medical Center HTML5 Template
-    Version: 1.0
-	Developer: Sagor Khan Omi
 
 -----------------------------------------------------------------------------------
 
@@ -68,7 +66,13 @@
 /*----------------------------------------*/
 /*  01. THEME DEFAULT CSS START
 /*----------------------------------------*/
+
+
 @import url("https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
 .text-color-1 {
   color: var(--clr-theme-primary);
 }
@@ -9758,6 +9762,7 @@ div[class*=col]:last-child .counter-item-2::after {
 .support-item {
   padding: 40px 40px;
   background: rgb(217, 243, 251);
+  height: 400px!important;
 }
 @media (max-width:450px), only screen and (min-width: 992px) and (max-width: 1199px) {
   .support-item {
@@ -12739,5 +12744,12 @@ p.checkout-coupon input[type=text]:focus {
 @media (max-width:450px) {
   .footer-widget-5-4 {
     width: 100%;
+  }
+
+
+  @media screen and (max-width: 1000px) {
+    .contact-info-c {
+      display: none!important;
+    }
   }
 }/*# sourceMappingURL=main.css.map */
